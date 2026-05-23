@@ -34,3 +34,14 @@ target/
 ### Docker ###
 *.pid
 docker-compose.override.yml
+=======
+# Logs
+*.log
+
+echo ".github/" >> .gitignore
+echo "checkstyle.xml" >> .gitignore
+echo "docker-compose.yml" >> .gitignore
+echo "ewm-main-service-spec.json" >> .gitignore
+echo "ewm-stats-service-spec.json" >> .gitignore
+echo "lombok.config" >> .gitignore
+echo "suppressions.xml" >> .gitignore
